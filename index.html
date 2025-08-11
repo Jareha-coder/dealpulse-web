@@ -53,12 +53,13 @@
 <footer>Want your deal featured? Click <a id="featureLink" href="#">here</a> — or email: your@youremail.com — Tip jar: <a href="#" style="color:#ffd166">Buy me a coffee</a></footer>
 
 <script>
-  const PAYPAL_LINK = 'https://www.paypal.me/yourlink'; // CHANGE to your PayPal.Me link
-  const VIP_LINK = 'https://www.buymeacoffee.com/yourlink'; // optional
+  const PAYPAL_LINK = 'https://paypal.me/dealpulse';
+  const VIP_LINK = 'https://paypal.me/dealpulse'; // or your BuyMeACoffee link if you want
 
   document.getElementById('vipBtn').href = VIP_LINK;
   document.getElementById('featureBtn').href = PAYPAL_LINK;
   document.getElementById('featureLink').href = PAYPAL_LINK;
+
 
   async function loadDeals(){
     try{
