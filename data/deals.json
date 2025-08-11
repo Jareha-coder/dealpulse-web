@@ -1,0 +1,37 @@
+[
+  {
+    "id":"d1",
+    "title":"PS5 (Disc) - In Stock at ExampleStore",
+    "desc":"PS5 Disc bundle — limited restock. 1 per customer. Local pickup available.",
+    "link":"https://example.com/product/ps5",
+    "price":"AED 1,799",
+    "image":"assets/ps5.jpg",
+    "retailer":"ExampleStore",
+    "featured": true,
+    "notified": false,
+    "ts":"2025-08-11T12:00:00Z"
+  },
+  {
+    "id":"d2",
+    "title":"Samsung Galaxy A54 - AED 999 (clearance)",
+    "desc":"Clearance at electronics shop — limited units.",
+    "link":"https://example.com/product/galaxy-a54",
+    "price":"AED 999",
+    "image":"assets/galaxy.jpg",
+    "retailer":"LocalShop",
+    "featured": false,
+    "notified": false,
+    "ts":"2025-08-10T08:00:00Z"
+  },
+  {
+    "id":"d3",
+    "title":"Nintendo Switch Lite - AED 649",
+    "desc":"Refurbished stock with 6-month warranty",
+    "link":"https://example.com/product/switch-lite",
+    "price":"AED 649",
+    "retailer":"RefurbHub",
+    "featured": false,
+    "notified": false,
+    "ts":"2025-08-08T09:00:00Z"
+  }
+]
